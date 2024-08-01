@@ -1,15 +1,7 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
-
-# testing
-/coverage
-
-# production
-/build
 
 # misc
 .DS_Store
@@ -21,3 +13,36 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# IDEs and Editors
+.idea/                                  # JetBrains IDEs (WebStorm, PyCharm, etc.)
+.vscode/                                # Visual Studio Code
+*.sublime-project                       # Sublime Text project files
+*.sln                                   # Visual Studio solution files
+*.suo                                   # Visual Studio user settings
+*.xcodeproj                             # Xcode project files
+
+# Build Artifacts
+build/                                  # Common output directory
+dist/                                   # Another common output directory
+coverage/                               # Test coverage reports
+
+# Temporary/Cache Files
+*.log                                   # Log files
+*.pid                                   # Process IDs
+.nyc_output/                            # nyc test coverage output
+.eslintcache/                           # ESLint cache
+.rts2_cache_cjs/                        # TypeScript cache
+
+# OS Specific
+Thumbs.db                               # Windows thumbnail cache
+
+# Version Control
+.git/                                   # Git repository directory
+
+# Text Editor Backups
+*~                                      # Text editor backups
+
+# Dependency Lock Files
+package-lock.json                       # npm lock file
+yarn.lock                               # yarn lock file
